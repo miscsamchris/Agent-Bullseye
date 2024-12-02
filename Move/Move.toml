@@ -1,0 +1,15 @@
+[package]
+name = "communitySaver"
+version = "1.0.0"
+authors = []
+
+[addresses]
+communitySaver = "880873652998d2cb0c63db5d7b11d7115a626f278c6d1bc56170aead9a8b00e4"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
